@@ -53,7 +53,7 @@ ul {
   background: #e6533c;
   padding: 8px 16px;
 }
-
+/*-------Banner section start------ */
 .banner {
   width: 80%;
   margin: 0 auto;
@@ -78,6 +78,7 @@ ul {
   font-weight: 400;
 }
 .banner-content p {
+  width: 80%;
   color: rgba(255, 255, 255, 0.5);
 
   font-family: Inter;
@@ -185,4 +186,82 @@ ul {
     position: absolute;
     top: 77%;
     right: 115%;
+}
+/* -------Habits section-------- */
+.habit{
+  width: 80%;
+  margin: 5em auto;
+}
+.habit-content{
+  text-align: center;
+  margin-bottom: 3em;
+}
+.habit-content h1{
+  color: #FFF;
+font-size: 48px;
+font-style: normal;
+font-weight: 900;
+line-height: 120%;
+}
+.habit-content p{
+ color: rgba(255, 255, 255, 0.50);
+text-align: center;
+font-family: Inter;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px; /* 171.429% */
+letter-spacing: 0.3px;
+margin-bottom: 3em;
+}
+.habit-image{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.card{
+  display: flex;
+width: 231px;
+flex-direction: column;
+align-items: center;
+}
+.card img{
+  border-radius: 50%;
+}
+.card h3{
+  color: #FFF;
+font-family: Inter;
+font-size: 18px;
+font-weight: 600;
+margin-top: 2em;
+
+}
+.card p{
+  color: rgba(255, 255, 255, 0.50);
+text-align: center;
+font-family: Inter;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 18px; /* 128.571% */
+letter-spacing: 0.3px;
+margin-top: .5em;
+}
+/* -----------Run Section ---------*/
+.run{
+  width: 80%;
+  margin: 5em auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 18px;
+background: #222;
+padding: 2em;
+}
+.run-image{
+  width: 350px;
+}
+.run-image img{
+  width: 100%;
+  height: auto;
 }
