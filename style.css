@@ -415,7 +415,7 @@ letter-spacing: 0.3px;
 
 }
 
-/* Team Section */
+/* ---- Team Section--- */
 .team{
   width: 80%;
   margin: 5rem auto;
@@ -425,7 +425,8 @@ letter-spacing: 0.3px;
 font-size: 48px;
 text-align: center;
 font-style: normal;
-font-weight: 900;/* 57.6px */
+font-weight: 900;
+margin-bottom: 1rem;
 }
 .team-pera{
   color: rgba(255, 255, 255, 0.50);
@@ -474,7 +475,7 @@ text-align: left;
   display: block;
   border-radius: 18px;
 }
-
+/*------ Footer part---- */
 footer{
 background: rgba(255, 255, 255, 0.10);
 

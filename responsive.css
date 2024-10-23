@@ -4,6 +4,10 @@
         flex-direction: column;
         text-align: left;
     }
+    /* Team part */
+    .trainers{
+display: grid;
+grid-template-columns: repeat(1,1fr);}
 
     /* Footer part */
   .footer-part{
