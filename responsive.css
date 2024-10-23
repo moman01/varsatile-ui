@@ -1,13 +1,76 @@
 @media (max-width: 575.98px) { 
+  nav ul {
+    display: none;
+  }
+  .hamburger {
+  display: block;
+}
     .banner{
         width: 95%;
         flex-direction: column;
         text-align: left;
     }
+   /* Banner  */
+
+
+    /* Habit */
+    .habit-content h1 {
+         font-size: 2rem;
+    }
+    .habit-image{
+        flex-direction: column;
+        gap: 2rem;
+    }
+
+/* Run part */
+
+.run{
+    flex-direction: column;
+    gap: 3rem;
+   
+}
+ .run-content{
+    padding-left: 2rem;
+ }
+
+ /* training part */
+ .img1 {
+  grid-column: span 6;
+}
+ .img2 {
+  grid-column: span 6;
+}
+ .img3, .img6 {
+ display: none;
+}
+ .img4 {
+  grid-column: span 5;
+}
+ .img5 {
+  grid-column: span 7;
+}
+
+/* Bmi */
+
+.calculator-part{
+  flex-direction: column;
+  gap: 2rem;
+}
+.input {
+grid-template-columns: repeat(1,1fr);
+}
+/* #select1,#select2,input {
+  width: 100%;
+  max-width: 300px;
+} */
+
+
+
     /* Team part */
     .trainers{
 display: grid;
-grid-template-columns: repeat(1,1fr);}
+grid-template-columns: repeat(1,1fr);
+}
 
     /* Footer part */
   .footer-part{

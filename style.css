@@ -53,6 +53,23 @@ nav ul {
   background: #e6533c;
   padding: 8px 16px;
 }
+/* Hamburger design  */
+.hamburger {
+  display: none;
+}
+
+.bar{
+    display: block;
+    height: 5px;
+    width: 25px;
+    background-color: #e6533c;
+    margin: 5px auto;
+     -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+
+}
+
 /*-------Banner section start------ */
 .banner {
   width: 80%;
@@ -197,7 +214,7 @@ nav ul {
 }
 .habit-content h1 {
   color: #fff;
-  font-size: 48px;
+  font-size: 3rem;
   font-style: normal;
   font-weight: 900;
   line-height: 120%;
@@ -274,7 +291,7 @@ nav ul {
   margin-bottom: 1rem;
 }
 .run-image {
-  width: 350px;
+  width: 366px;
 }
 .run-image img {
   width: 100%;
@@ -381,6 +398,7 @@ nav ul {
 .bmi{
   width: 80%;
   margin: 0 auto;
+  
 }
 .bmi-content{
   width: 50%;
@@ -402,6 +420,7 @@ letter-spacing: 0.3px;
 }
 .calculator-part-section{
   background: #222;
+  padding: 3rem 0px;
   
 }
 .calculator-part{
@@ -410,10 +429,117 @@ letter-spacing: 0.3px;
   display: flex;
   justify-content: space-between;
 }
+.chart h3{
+color: #FFF;
+font-family: Inter;
+font-size: 1.8rem;
+font-weight: 900;
+line-height: 120%;
+margin-bottom: 2rem; 
+}
+table, tr, th,td{
+    border: 1px solid  rgba(255, 255, 255, 0.10);
+  border-collapse: collapse;
+  padding: 1rem;
+  
+}
+th{
+  color: #FFF;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: 120%; 
+  text-align: left;
+}
+tr td{
+  color: rgba(255, 255, 255, 0.50);
+font-family: Inter;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 120%; /* 16.8px */
+}
+
+
 .calculator{
   width: 570px;
+ 
+}
+
+.calculator h3{
+  color: #FFF;
+font-size: 1.8rem;
+font-weight: 900;
+line-height: 120%; 
+margin-bottom: .5rem;
+}
+
+.calculator p{
+  
+  color: rgba(255, 255, 255, 0.50);
+font-size: 14px;
+font-weight: 400;
+letter-spacing: 0.3px;
+margin-bottom: 1rem;
+}
+
+.input{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  gap: 10px;
+ 
+}
+.input input,select{
+  padding: .8rem 2rem 0.8rem 1.4rem;
+align-items: center;
+border-radius: 8px;
+background: rgba(255, 255, 255, 0.10);
+border: none;
+}
+
+input ::placeholder{
+color: rgba(255, 255, 255, 0.60);
+font-family: Inter;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 22px; /* 137.5% */
 
 }
+
+#select2{
+  grid-column: span 2;
+}
+
+#select1,#select2{
+  color: rgba(255, 255, 255, 0.60);
+font-family: Inter;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 22px; /* 137.5% */
+}
+
+.btn-c{
+  width: 224px;
+  color: #FFF;
+font-size: 18px;
+font-weight: 600;
+line-height: 22px; 
+padding: 16px 40px;
+border-radius: 42px;
+border: none;
+background: #E6533C;
+margin-top: 1rem;
+}
+
+
+
+
+
+
+
+
 
 /* ---- Team Section--- */
 .team{
