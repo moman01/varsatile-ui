@@ -82,7 +82,7 @@ nav ul {
 .banner-content h1 {
   color: #fff;
   font-family: Inter;
-  font-size: 4em;
+  font-size: 4rem;
   font-style: normal;
   font-weight: 900;
   line-height: 110%;
@@ -132,6 +132,10 @@ nav ul {
 
 .bannerimage {
   position: relative;
+}
+.banner-image{
+  width: 100%;
+  height: auto;
 }
 
 .p1 {
@@ -298,6 +302,19 @@ nav ul {
   height: auto;
   border-radius: 18px;
 }
+.run-btn{
+   border-radius: 42px;
+  background: #e6533c;
+  padding: 16px 40px;
+  border: none;
+  cursor: pointer;
+  color: #fff;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 22px;
+}
+
 /* --------Training Section--------- */
 .training {
   width: 80%;
@@ -490,6 +507,7 @@ margin-bottom: 1rem;
  
 }
 .input input,select{
+  width: 100%;
   padding: .8rem 2rem 0.8rem 1.4rem;
 align-items: center;
 border-radius: 8px;
@@ -518,6 +536,10 @@ font-size: 16px;
 font-style: normal;
 font-weight: 400;
 line-height: 22px; /* 137.5% */
+}
+#select1 >option{
+  background-color: #e6533c;
+  width: 100%;
 }
 
 .btn-c{
